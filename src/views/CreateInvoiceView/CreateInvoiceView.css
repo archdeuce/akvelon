@@ -1,0 +1,28 @@
+.createInvoceForm {
+  border: 2px solid #e8e8e8;
+  display: flex;
+  flex-direction: column;
+}
+
+.createInvoceForm label {
+  font-weight: bold;
+}
+
+.createInvoceForm input {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.createInvoceTable td {
+  border: none;
+}
+
+textarea {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.saveBtn {
+  margin: 0px 15px 20px auto;
+}

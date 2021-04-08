@@ -1,0 +1,46 @@
+.invoicesTable {
+  border: none;
+  border-collapse: collapse;
+  width: auto;
+}
+
+.invoicesTable thead {
+  background-color: #f1f3f6;
+}
+
+.invoicesTable th:first-child {
+  border-radius: 4px 0px 0px 0px;
+}
+
+.invoicesTable th:last-child {
+  border-radius: 0px 4px 0px 0px;
+}
+
+.invoicesTable th,
+td {
+  padding: 20px;
+  color: #7a7a7a;
+  text-align: left;
+}
+
+.invoicesTable td {
+  border-bottom: solid 2px #e8e8e8;
+}
+
+.removeBtn {
+  border: none;
+  color: #ff8882;
+  background: rgba(0, 0, 0, 0);
+}
+
+.editBtn {
+  border: none;
+  color: #78c4d4;
+  background: rgba(0, 0, 0, 0);
+}
+
+.removeBtn:focus,
+.editBtn:focus {
+  border: none;
+  outline: 0;
+}
